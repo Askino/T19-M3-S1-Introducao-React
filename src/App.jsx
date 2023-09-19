@@ -1,6 +1,7 @@
 //importações
 
 import { Header } from "./components/Header"
+import { BannerSection } from "./components/BannerSection"
 
 const App = () => {
   // Javascript -> Implementando tudo o que já conhecem
@@ -14,6 +15,7 @@ const App = () => {
     //JSX -> Junção de HTML com JS
     <> {/*Fragment*/}
       <Header/>
+      <BannerSection/>
     </>
   )
 }
