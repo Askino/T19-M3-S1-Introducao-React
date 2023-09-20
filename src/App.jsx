@@ -2,6 +2,7 @@
 
 import { Header } from "./components/Header"
 import { BannerSection } from "./components/BannerSection"
+import { CategoriesSection } from "./components/CategoriesSection"
 
 const App = () => {
   // Javascript -> Implementando tudo o que já conhecem
@@ -16,6 +17,7 @@ const App = () => {
     <> {/*Fragment*/}
       <Header/>
       <BannerSection/>
+      <CategoriesSection />
     </>
   )
 }
