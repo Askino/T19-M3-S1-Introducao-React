@@ -9,6 +9,7 @@ export const LadingPage = () => {
     return (
         <>
             <DefaultTemplate>
+                {/* Valor children para o componente DefaultTemplate */}
                 <BannerSection />
                 <CategoriesSection />
                 <ProductsSection />

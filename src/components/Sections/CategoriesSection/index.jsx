@@ -1,3 +1,5 @@
+import image1 from '../../../Assets/Sapatos.svg'
+import image2 from '../../../Assets/Bolsas.svg'
 import { CategoryCard } from "./CategoryCard"
 
 export const CategoriesSection = () => {
@@ -7,8 +9,8 @@ export const CategoriesSection = () => {
         <section>
             <h2 className="title2">CATEGORIAS</h2>
             <ul>
-                <li><CategoryCard title="Sapatos" image="#"/></li>
-                <li><CategoryCard title="Bolsas" image="#"/></li>
+                <li><CategoryCard title="Sapatos" image={image1}/></li>
+                <li><CategoryCard title="Bolsas" image={image2}/></li>
             </ul>
         </section>
     )

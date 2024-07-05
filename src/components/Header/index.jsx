@@ -1,7 +1,10 @@
+import Logo from '../../Assets/Logo.svg'
+
+
 export const Header = () => {
     return (
         <header>
-            <img src="" alt="Logo do site" />
+            <img src={Logo} alt="Logo do site" />
         </header>
     )
 }
