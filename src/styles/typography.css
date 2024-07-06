@@ -1,7 +1,8 @@
 .title1 {
     color: var(--color-black);
     font-family: var(--font-primary);
-    font-size: 6.25rem;
+    /* font-size: 6.25rem; */
+    font-size: clamp(3rem, 5.5vw, 6.25rem);
     font-weight: 500;
     line-height: 7.5rem;
     text-transform: uppercase;
@@ -10,7 +11,8 @@
 .title2 {
     color: var(--color-black);
     font-family: var(--font-primary);
-    font-size: 3.75rem;
+    /* font-size: 3.75rem; */
+    font-size: clamp(2rem, 5.5vw, 3.75rem);
     font-weight: 500;
     line-height: 7.5rem;
     text-transform: uppercase;
@@ -19,20 +21,23 @@
 .title3 {
     color: var(--color-black);
     font-family: var(--font-secondary);
-    font-size: 1.1875rem;
+    /* font-size: 1.1875rem; */
+    font-size: clamp(1rem, 5.5vw, 1.1875rem);
     font-weight: 700;
 }
 
 .paragraph {
     color: var(--color-black);
     font-family: var(--font-secondary);
-    font-size: 1.1875rem;
+    /* font-size: 1.1875rem; */
+    font-size: clamp(1rem, 5.5vw, 1.1875rem);
     font-weight: 400;
 }
 
 .price{
     color: var(--color-black);
     font-family: var(--font-primary);
-    font-size: 1.125rem;
+    /* font-size: 1.125rem; */
+    font-size: clamp(1rem, 5.5vw, 1.125rem);
     font-weight: 400;
 }
