@@ -2,16 +2,16 @@
 // import Product2 from '../../../Assets//Product2.svg'
 // import Product3 from '../../../Assets/Product3.svg'
 // import Product4 from '../../../Assets/Product4.svg'
-
+import styles from "./style.module.scss"
 import { ProductCard } from "./ProductCard"
 import { products } from "../../../data/products"
 export const ProductsSection = () => {
     // console.log(products)
     return (
         <div className="container">
-            <section>
+            <section className={styles.productsSection}>
                 <h2 className="title2">PRODUTOS EM DESTAQUE</h2>
-                <ul>
+                <ul  className={styles.productList}>
 
                     {/* <li><ProductCard title="Blazer Branco Elegante" price={490} image={Product1} /></li>
                     <li><ProductCard title="Sapatos Amarelos" price={490} image={Product2} /></li>
@@ -20,7 +20,7 @@ export const ProductsSection = () => {
 
                     {
                         products.map((product) => {
-                            return <li key={product.id}>
+                            return <li  key={product.id}>
                                 <ProductCard title={product.name} price={product.price} image={product.img} />
                             </li>
                         })
