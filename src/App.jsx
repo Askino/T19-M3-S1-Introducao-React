@@ -4,10 +4,10 @@ import { LadingPage } from "./pages/LadingPage"
 
 
 const App = () => {
-  
+
   return (
-    <> 
-      <LadingPage/>
+    <>
+      <LadingPage />
     </>
   )
 }
